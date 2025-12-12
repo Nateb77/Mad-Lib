@@ -232,3 +232,7 @@ a.ssolink {
     transform: translateX(0px);
   }
 } 
+
+.userInput {
+    display: inline;
+}
