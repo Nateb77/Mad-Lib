@@ -42,12 +42,78 @@
       </div>
       <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
         <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
-          <h1><a href="http://blog.stackfindover.com/" rel="dofollow">Mad Libs</a></h1>
+          <h1><a href="http://blog.stackfindover.com/" rel="dofollow">Mad Libs: Word Input</a></h1>
         </div>
         <div class="formbg-outer">
           <div class="formbg">
             <div class="formbg-inner padding-horizontal--48">
-             <p>Today I went to the (place) to buy a (adjective) (noun). When I arrived, a (animal) suddenly (verb, past tense) right in front of me! I couldn’t believe my (body part). The crowd started (verb ending in -ing), and someone shouted, “This is more (adjective) than last time!” In the end, I just grabbed my (noun) and went home to (verb) about it.</p>
+                <div class="input-data">
+               <input type="text" required id="place">
+               <div class="underline"></div>
+               <label for="">1.</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required id="adjective1">
+               <div class="underline"></div>
+               <label for="">2.</label>
+            </div>
+                <div class="input-data">
+               <input type="text" required id="noun">
+               <div class="underline"></div>
+               <label for="">3.</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required id="animal">
+               <div class="underline"></div>
+               <label for="">4.</label>
+            </div>
+                <div class="input-data">
+               <input type="text" required id="verbPast">
+               <div class="underline"></div>
+               <label for="">5.</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required id="bodypart">
+               <div class="underline"></div>
+               <label for="">6.</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required id="verbIng">
+               <div class="underline"></div>
+               <label for="">7.</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required id="adjective2">
+                <div class="underline"></div>
+                <label for="">8.</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required id="noun2">
+                <div class="underline"></div>
+                <label for="">9.</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required id="verb">
+                <div class="underline"></div>
+                <label for="">10.</label>
+            </div>
+                <button id="Display">
+                  <span class="box">
+                    Go!
+                  </span>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+        <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+          <h1><a href="http://blog.stackfindover.com/" rel="dofollow">Mad Libs: Story</a></h1>
+        </div>
+        <div class="formbg-outer">
+          <div class="formbg">
+            <div class="formbg-inner padding-horizontal--48">
+             <p>Today I went to the <span class="userInput">place</span> to buy a <span class="userInput">adjective1</span> <span class="userInput">noun</span>. When I arrived, a <span class="userInput">animal</span> suddenly <span class="userInput">verb past tense</span> right in front of me! I couldn’t believe my <span class="userInput">body part</span>. The crowd started<span class="userInput">verb ending in -ing</span>, and someone shouted, “This is more <span class="userInput">adjective2</span> than last time!” In the end, I just grabbed my <span class="userInput">noun2</span> and went home to <span class="userInput">verb</span> about it.</p>
             </div>
           </div>
         </div>
