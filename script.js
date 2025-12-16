@@ -1,6 +1,11 @@
 var button = document.getElementById('Display'); 
 button.addEventListener('click', getWords);
+
+function getWords() {
+
 var words = document.querySelectorAll('input[type=text]')
-   function getWords() {
-      console.log(words)
+var placeholders = document.querySelectorAll('.userInput')
+placeholders.forEach((words, index) => {
+   console.log(words, index);
+});
 }
