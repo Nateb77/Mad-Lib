@@ -5,7 +5,7 @@ function getWords() {
 
 var words = document.querySelectorAll('input[type=text]')
 var placeholders = document.querySelectorAll('.userInput')
-placeholders.forEach((words, index) => {
+placeholders.forEach((placeholder, index) => {
    console.log(words, index);
 });
 }
