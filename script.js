@@ -6,6 +6,7 @@ function getWords() {
 var words = document.querySelectorAll('input[type=text]')
 var placeholders = document.querySelectorAll('.userInput')
 placeholders.forEach((placeholder, index) => {
-   console.log(words, index);
+   console.log(placeholder, index);
+   placeholder.innerHTML = words[index].value;
 });
 }
