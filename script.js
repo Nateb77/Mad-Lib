@@ -9,4 +9,8 @@ placeholders.forEach((placeholder, index) => {
    console.log(placeholder, index);
    placeholder.innerHTML = words[index].value;
 });
+
+document.getElementById("output").style.display = "block";
+document.getElementById("outputs").style.display = "block";
+
 }

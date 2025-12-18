@@ -235,6 +235,12 @@ a.ssolink {
 
 .userInput {
     display: inline;
-    display: none;
 }
 
+
+#output {
+  display: none;
+}
+#outputs {
+  display: none;
+}
